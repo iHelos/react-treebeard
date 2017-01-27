@@ -8,7 +8,8 @@ import NodeHeader from './header';
 class TreeNode extends React.Component {
     constructor(props){
         super(props);
-        this.onClick = this.onClick.bind(this);
+        this.onElementClick = this.onElementClick.bind(this);
+        this.onExpanderClick = this.onExpanderClick.bind(this);
     }
     onElementClick(){
         let showing = !this.props.node.showing;

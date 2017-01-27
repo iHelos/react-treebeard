@@ -30,7 +30,8 @@ class NodeHeader extends React.Component {
                 style={headerStyles}
                 decorators={decorators}
                 terminal={terminal}
-                onClick={this.props.onClick}
+                onElementClick={this.props.onElementClick}
+                onExpanderClick={this.props.onExpanderClick}
                 animations={this.props.animations}
                 node={this.props.node}
             />
