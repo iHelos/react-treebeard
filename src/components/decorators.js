@@ -97,7 +97,8 @@ Container.propTypes = {
     style: React.PropTypes.object.isRequired,
     decorators: React.PropTypes.object.isRequired,
     terminal: React.PropTypes.bool.isRequired,
-    onClick: React.PropTypes.func.isRequired,
+    onElementClick: React.PropTypes.func.isRequired,
+    onExpanderClick: React.PropTypes.func.isRequired,
     animations: React.PropTypes.oneOfType([
         React.PropTypes.object,
         React.PropTypes.bool
