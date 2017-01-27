@@ -46,7 +46,8 @@ NodeHeader.propTypes = {
         React.PropTypes.bool
     ]).isRequired,
     node: React.PropTypes.object.isRequired,
-    onClick: React.PropTypes.func
+    onElementClick: React.PropTypes.func,
+    onExpanderClick: React.PropTypes.func
 };
 
 export default NodeHeader;
