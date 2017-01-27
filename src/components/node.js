@@ -100,7 +100,7 @@ class TreeNode extends React.Component {
         );
     }
     _eventBubbles(){
-        return { onToggle: this.props.onToggle };
+        return { onToggle: this.props.onToggle, onShowInfo: this.props.onShowInfo };
     }
 }
 
